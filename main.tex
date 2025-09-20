@@ -1,9 +1,11 @@
 \documentclass[a4paper,12pt]{article}
 
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage{tcolorbox}
+\RequirePackage{listings}
 \usepackage{xepersian}
 \usepackage{geometry}
 \usepackage{graphicx}
-
 
 \geometry{
   a4paper,
@@ -13,9 +15,17 @@
   bottom=25mm
 }
 
-\RequirePackage[dvipsnames]{xcolor}
-\RequirePackage{listings}
-\RequirePackage{tcolorbox}
+\newtcolorbox{mybox}[1][]{
+  colback=gray!5,
+  left=1mm,
+  right=1mm,
+  leftrule=0pt,
+  rightrule=1pt,
+  toprule=0pt,
+  bottomrule=0pt,
+  sharp corners
+}
+
 
 \lstset{
     framerule=1pt,
@@ -51,6 +61,17 @@
 
 این کد پایتون
 \lr{\lstinputlisting[language=Python]{code/text.py}}
+
+% باکس برای نوشتن مسئله ریاضی
+\begin{mybox}
+
+\textbf{مسئله اول}
+
+یک عدد حقیقی $x$ را بیابید که معادله زیر برقرار باشد:
+$$x^2 - 5x + 6 = 0$$
+\end{mybox}
+
+\textbf{مسئله اول}
 
 \newpage
 
