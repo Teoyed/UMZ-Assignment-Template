@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  20 SEP 2025 16:40
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  20 SEP 2025 19:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -886,19 +886,50 @@ LaTeX Font Info:    ... okay on input line 4.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./settings/title.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 759.6886pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=759.6886pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 File: figure/logo.png Graphic file (type bmp)
 <figure/logo.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <12> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 38.
+(Font)              <6> on input line 10.
 
 
 [1
+
 
 ]) (./template/template.tex
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/b/n' will be
@@ -942,11 +973,11 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 21568 strings out of 473832
- 508923 string characters out of 5729482
- 1139900 words of memory out of 5000000
- 44228 multiletter control sequences out of 15000+600000
- 562791 words of font info for 86 fonts, out of 8000000 for 9000
+ 21561 strings out of 473832
+ 508784 string characters out of 5729482
+ 1139899 words of memory out of 5000000
+ 44222 multiletter control sequences out of 15000+600000
+ 561877 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  121i,5n,124p,1166b,1301s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
