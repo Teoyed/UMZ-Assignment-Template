@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  20 SEP 2025 14:43
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  20 SEP 2025 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -772,7 +772,8 @@ Package fontspec Info:
 (fontspec)             Font family 'BZar(0)' created for font 'B Zar' with
 (fontspec)             options
 (fontspec)             [RawFeature={script=arab},Ligatures=PersianTeX,Path=font
-/,Extension=.ttf].
+/,Extension=.ttf,BoldFont=B
+(fontspec)             Zar Bold].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -780,6 +781,9 @@ Package fontspec Info:
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"[font/B
 (fontspec)             Zar.ttf]/OT:language=dflt;script=arab;mapping=persian-te
 x-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"[font/B Zar
+(fontspec)             Bold.ttf]/OT:language=dflt;script=arab;mapping=persian-t
+ex-text;"
 
 
 Package fontspec Info: 
@@ -886,10 +890,6 @@ LaTeX Font Warning: Font shape `TU/BZar(0)/m/sc' undefined
 
 File: figure/logo.png Graphic file (type bmp)
 <figure/logo.png>
-
-LaTeX Font Warning: Font shape `TU/BZar(0)/b/n' undefined
-(Font)              using `TU/BZar(0)/m/n' instead on input line 13.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -944,11 +944,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21542 strings out of 473832
- 508026 string characters out of 5729482
- 1135319 words of memory out of 5000000
- 44212 multiletter control sequences out of 15000+600000
- 561845 words of font info for 79 fonts, out of 8000000 for 9000
+ 21550 strings out of 473832
+ 508383 string characters out of 5729482
+ 1135365 words of memory out of 5000000
+ 44216 multiletter control sequences out of 15000+600000
+ 561869 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  116i,5n,121p,1161b,1301s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
