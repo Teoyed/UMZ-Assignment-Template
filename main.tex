@@ -1,0 +1,58 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{xepersian}
+\usepackage{geometry}
+\usepackage{graphicx}
+
+
+\geometry{
+  a4paper,
+  left=25mm,
+  right=25mm,
+  top=25mm,
+  bottom=25mm
+}
+
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage{listings}
+\RequirePackage{tcolorbox}
+
+\lstset{
+    framerule=1pt,
+    frame=tb,
+    emphstyle={\small\ttfamily\bfseries\color{Orange}},
+    numbers=left,
+    numberstyle= \tiny\color{black},
+    basicstyle = \small\ttfamily,
+    keywordstyle    = \bfseries\color{BrickRed},
+    identifierstyle = \bfseries\color{black},
+    stringstyle     = \bfseries\color{ForestGreen},
+    commentstyle    = \bfseries\color{Violet},
+    breaklines      =   true,
+    columns         =   fixed,
+    basewidth       =   .5em,
+    backgroundcolor=\color{Gray!5},
+    tabsize=2,
+    showspaces=false,
+    showstringspaces=false,
+}
+
+\settextfont[Path=font/,Extension=.ttf]{B Zar}
+\setlatintextfont[Scale=0.833]{Times New Roman}
+
+
+\begin{document}
+
+\input{pages/title}
+\input{pages/assignment}
+
+این کد سی
+\lr{\lstinputlisting[language=C]{code/test.c}}
+
+این کد پایتون
+\lr{\lstinputlisting[language=Python]{code/text.py}}
+
+\newpage
+
+
+\end{document}
